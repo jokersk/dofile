@@ -18,8 +18,8 @@ pluginKeys.nvimTreeList = {
   { key = "v", action = "vsplit" },
   { key = "h", action = "split" },
   -- show the hidden file
-  { key = "i", action = "toggle_custom" }, -- 对应 filters 中的 custom (node_modules)
-  { key = ".", action = "toggle_dotfiles" }, -- Hide (dotfiles)
+  { key = "i", action = "toggle_custom" },
+  { key = ".", action = "toggle_dotfiles" }, 
   -- file op
   { key = "<F5>", action = "refresh" },
   { key = "a", action = "create" },
